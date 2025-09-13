@@ -3,21 +3,23 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle login logic here
-    console.log('Login submitted:', { email, password, rememberMe });
+    // For now, redirect any user to dashboard
+    router.push('/dashboard');
   };
 
   const handleGoogleSignIn = () => {
-    // Handle Google sign in
-    console.log('Google sign in clicked');
+    // For now, redirect any user to dashboard
+    router.push('/dashboard');
   };
 
   return (
