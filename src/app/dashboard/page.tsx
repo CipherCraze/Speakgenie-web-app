@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MainLayout } from '@/components/layout';
-import { ProgressData, LessonData } from '@/types';
+import { ProgressData } from '@/types';
 
 export default function DashboardPage() {
   const progressData: ProgressData = {
@@ -11,27 +11,6 @@ export default function DashboardPage() {
     totalXP: 3500,
     achievements: 12
   };
-
-  const continueLearningLessons: LessonData[] = [
-    {
-      id: '1',
-      title: 'Essential Vocabulary',
-      type: 'vocabulary',
-      xp: 20,
-      progress: 60,
-      status: 'active',
-      isReview: true
-    },
-    {
-      id: '2',
-      title: 'Mastering Verb Tenses',
-      type: 'grammar',
-      xp: 30,
-      progress: 30,
-      status: 'active',
-      isReview: false
-    }
-  ];
 
   return (
     <MainLayout currentPage="dashboard">

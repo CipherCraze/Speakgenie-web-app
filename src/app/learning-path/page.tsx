@@ -113,7 +113,7 @@ export default function LearningPathPage() {
               <div className="mb-6 md:mb-0">
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">Your Progress</h2>
                 <p className="text-gray-600 text-lg">
-                  You've completed <span className="font-bold text-emerald-600 text-xl">{stats.completed}</span> of{' '}
+                  You&apos;ve completed <span className="font-bold text-emerald-600 text-xl">{stats.completed}</span> of{' '}
                   <span className="font-bold text-gray-800 text-xl">{stats.total}</span> lessons
                 </p>
               </div>
@@ -233,7 +233,7 @@ export default function LearningPathPage() {
               <h3 className="text-xl font-bold text-gray-900">Current Focus</h3>
             </div>
             <p className="text-gray-600 mb-6 relative z-10 leading-relaxed">
-              You're currently working on <span className="font-semibold text-pink-600">grammar fundamentals</span>. 
+              You&apos;re currently working on <span className="font-semibold text-pink-600">grammar fundamentals</span>. 
               Master the present tense to unlock more advanced topics and conversation skills.
             </p>
             <button className="bg-gradient-to-r from-pink-400 to-orange-400 text-white px-6 py-3 rounded-2xl font-semibold hover:shadow-xl transition-all transform hover:-translate-y-1 active:translate-y-0 hover:from-pink-500 hover:to-orange-500 w-full sm:w-auto">
@@ -251,7 +251,7 @@ export default function LearningPathPage() {
               <h3 className="text-xl font-bold text-gray-900">Coming Next</h3>
             </div>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              After completing your current lesson, you'll unlock <span className="font-semibold text-purple-600">listening comprehension</span> exercises to test your understanding in real-world scenarios.
+              After completing your current lesson, you&apos;ll unlock <span className="font-semibold text-purple-600">listening comprehension</span> exercises to test your understanding in real-world scenarios.
             </p>
             <button className="bg-gray-100 text-gray-400 px-6 py-3 rounded-2xl font-semibold cursor-not-allowed w-full sm:w-auto opacity-60">
               🔒 Available Soon
@@ -264,7 +264,7 @@ export default function LearningPathPage() {
           <div className="inline-block bg-white rounded-2xl px-8 py-6 shadow-lg border border-gray-100 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 opacity-50"></div>
             <p className="text-gray-700 italic text-lg font-medium relative z-10 max-w-2xl">
-              "The beautiful thing about learning is that nobody can take it away from you."
+              &ldquo;The beautiful thing about learning is that nobody can take it away from you.&rdquo;
             </p>
             <p className="text-gray-500 text-sm mt-2 relative z-10">- B.B. King</p>
           </div>
