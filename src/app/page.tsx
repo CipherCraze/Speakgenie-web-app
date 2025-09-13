@@ -20,11 +20,11 @@ export default function Home() {
           <Image
             src="/Speakgenielogo.png"
             alt="SpeakGenie Logo"
-            width={48}
-            height={48}
+            width={280}
+            height={280}
             className="rounded-lg"
           />
-          <h1 className="text-2xl font-bold text-gray-900">SpeakGenie</h1>
+          
         </div>
         <p className="text-gray-600">Loading...</p>
       </div>
